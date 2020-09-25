@@ -4,12 +4,22 @@ body {
 ul {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   margin: 40px;
+
 }
 li {
-  padding: 40px;
+  padding: 20px;
+  width: 150px;
 }
 .btn {
-  color: #68fdcb;
+  color: #989898;
+  background-color: #ffe2ff;
+  width: 100px;
+  margin-top: 10px;
+  border: none;
+  font-size: 14px;
+}
+.btn:hover{
+  background-color: rgb(197, 234, 248);
 }
