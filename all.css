@@ -1,39 +1,45 @@
 body {
-  /* background-color: #68fdcb; */
+    background-color: ivory;
 }
-ul {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  margin: 40px;
 
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 40px;
 }
+
 li {
-  padding: 20px;
-  width: 150px;
+    padding: 20px;
+    width: 150px;
 }
+
 .btn {
-  color: #989898;
-  background-color: #ffe2ff;
-  width: 100px;
-  margin-top: 10px;
-  border: none;
-  font-size: 14px;
-  animation: rotate 5s infinite;
+    color: #989898;
+    background-color: #ffe2ff;
+    width: 100px;
+    margin-top: 10px;
+    border: none;
+    font-size: 14px;
+    animation: rotate 5s infinite;
 }
-.btn:hover{
-  background-color: rgb(197, 234, 248);
-  transform: scale(1.5);
-  animation-play-state: paused;
+
+.btn:hover {
+    background-color: rgb(197, 234, 248);
+    transform: scale(1.5);
+    animation-play-state: paused;
 }
+
 @keyframes rotate {
-  0%,100% {
-    transform: rotate(0deg);
-  }
-  50%{
-    transform: rotate(-10deg);
-  }
-  25%,75% {
-    transform: rotate(20deg);
-  }
+    0%,
+    100% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-10deg);
+    }
+    25%,
+    75% {
+        transform: rotate(20deg);
+    }
 }
